@@ -81,7 +81,7 @@ poly_reg.fit(X_train_poly, y_train)
 poly_reg_pred = poly_reg.predict(poly.transform(X_test))
 ```
 
-**R² Score: 0.38** (Kurang optimal karena overfitting)
+**R² Score: 0.39** (Kurang optimal karena overfitting)
 
 ### 3️⃣ **Decision Tree Regression**
 
@@ -131,7 +131,7 @@ Berikut adalah hasil **R² Score** dari masing-masing model:
 | Model                     | R² Score |
 | ------------------------- | -------- |
 | Linear Regression         | 0.69     |
-| Polynomial Regression     | 0.38     |
+| Polynomial Regression     | 0.39     |
 | Decision Tree Regression  | 0.78     |
 | Random Forest Regression  | 0.88     |
 | Support Vector Regression | 0.80     |
